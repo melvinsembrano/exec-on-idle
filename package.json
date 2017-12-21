@@ -1,0 +1,9 @@
+{
+  "name": "exec-on-idle",
+  "version": "1.0.0",
+  "description": "Execute function only after idle time",
+  "main": "exec-on-idle.js",
+  "repository": "https://github.com/melvinsembrano/exec-on-idle.git",
+  "author": "Melvin Sembrano",
+  "license": "MIT"
+}
