@@ -1,6 +1,6 @@
 {
   "name": "exec-on-idle",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "Execute function only after idle time",
   "main": "exec-on-idle.js",
   "repository": "https://github.com/melvinsembrano/exec-on-idle.git",
@@ -22,8 +22,8 @@
   "scripts": {
     "flow": "flow",
     "test": "jest",
-    "build": "babel src/ -d ./",
-    "prod": "babel src/  --presets minify --out-file exec-on-idle.min.js --source-maps"
+    "build": "babel src/ -d ./ --ignore test.js",
+    "prod": "babel src/  --presets minify --out-file exec-on-idle.min.js --source-maps --ignore test.js"
   },
   "jest": {
     "testRegex": "src/.*\\.test.js"

@@ -4,6 +4,6 @@
     "flow"
   ],
   "ignore": [
-    "**/*.test.js"
+    
   ]
 }
